@@ -1,0 +1,101 @@
+*
+{
+	margin: 0px; padding: 0px;
+}
+
+body {
+		background: url(Wallpaper.png) no-repeat center center fixed;
+		background-size: cover;
+	}
+	
+
+.containerhome {background: rgba(0, 0, 0, 0.3); margin: 20px; padding: 10px; height: 400px;}
+.containeropdracht {background: rgba(0, 0, 0, 0); margin: 20px; padding: 10px; height: 580px;}
+
+.thumb{margin-top: 10px; padding: 60px 10px; text-align: center; background: rgba(0, 0, 0, 0); color: white;}
+
+a {
+	color: white;
+}
+
+h1{text-align: center; color: white; background: rgba(0, 0, 0, 0.9); padding-bottom: 20px;}
+
+h2{text-align: center; margin: 30px 0; color: white; background: rgba(0, 0, 0, 0.6); width: 50%; padding: 10px;}
+
+h3{text-align: center; color: white;}
+
+p{text-align: center; color: white;}
+
+.frame {
+	height: 500px; width: 70%; allowtransparency="true"; background: #FFFFFF; align: center;
+}
+
+.btnpad {
+	padding: 25px;
+}
+
+.widthdiv {
+	max-width: 1920px; margin: 0 auto; padding: 10px;
+}
+
+.order66 {
+	background: center center fixed;
+	width: 980px;
+	box-shadow: 50px 50px 50px rgba(10,10,10,10);
+}
+
+.kill {
+	background: center center fixed;
+	width: 1300px;
+	box-shadow: 50px 50px 50px rgba(10,10,10,10);
+}
+
+#egg {
+	opacity: 0; margin-left: 82%; margin-top: 15%;
+}
+
+.pagecontent form {
+	position: absolute;
+	top: 0;
+	left:0;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.inputveld {
+	left: 250px;
+	width: 30%;
+	height: 100%;
+	position: absolute;
+}
+
+.outputveld {
+	right: 250px;
+	width: 30%;
+	height: 100%;
+	position: absolute;
+}
+
+.invoerveld {
+	height: 300px;
+}
+
+textarea{
+	height: 300px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: white; 
+}
+
+.tabelstyle
+{
+	height: 300px;
+	width: 95%;
+}
+
+#homebutton{
+	margin-top: 5px;
+}
